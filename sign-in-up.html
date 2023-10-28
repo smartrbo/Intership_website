@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in and Sign up form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<div class="container">
+    <div class="forms-container">
+        <div class="signin-signup">
+          <form action="#" class="sign-in-form">
+            <h2 class="title">Sign in</h2>
+            <div class="input-field">
+                <i class="fas fa-user"></i>
+                <input type="text" placeholder="Username"  >
+            </div>
+            <div class="input-field">
+                <i class="fas fa-lock"></i>
+                <input type="password" placeholder="Password" >
+            </div>
+            <input type="submit" class="btn solid" value="Login">
+            <p class="social-text">Or Sign up with social platform</p>
+            <div class="social-media">
+                <a href="#" class="social-icon">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#" class="social-icon">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" class="social-icon">
+                    <i class="fab fa-google"></i>
+                </a>
+                <a href="#" class="social-icon">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#" class="social-icon">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </div>
+          </form>
+        </div>
+        </div>
+        <div class="signin-signup">
+            <form action="#" class="sign-up-form" id="ContactForm">
+              <h2 class="title">Sign up</h2>
+              <div class="input-field">
+                  <i class="fas fa-user"></i>
+                  <input type="text" id="user" placeholder="Username" >
+              </div>
+              <div class="input-field">
+                <i class="fas fa-envelope"></i>
+                <input type="email" id="Email" placeholder="Email" >
+            </div>
+              <div class="input-field">
+                  <i class="fas fa-lock"></i>
+                  <input type="password" id="Password" placeholder="Password" >
+              </div>
+              <input type="submit" id="submit"  class="btn solid" value="Login">
+              <p class="social-text">Or Sign up with social platform</p>
+              <div class="social-media">
+                  <a href="#" class="social-icon">
+                      <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a href="#" class="social-icon">
+                      <i class="fab fa-twitter"></i>
+                  </a>
+                  <a href="#" class="social-icon">
+                      <i class="fab fa-google"></i>
+                  </a>
+                  <a href="#" class="social-icon">
+                      <i class="fab fa-instagram"></i>
+                  </a>
+                  <a href="#" class="social-icon">
+                      <i class="fab fa-linkedin-in"></i>
+                  </a>
+              </div>
+            </form>
+       </div>
+    <div class="panels-container">
+        <div class="panel left-panel">
+            <div class="content">
+                <h3>Kunal Here?</h3>
+                <p>
+                    Join our ethical hacker organization
+                    Use your skills to make the world a safer place
+                    We're always looking for talented hackers.
+                   <h3> Register today!</h3>
+                </p>
+                <button class="btn transparent" id="sign-up-button">Sign Up</button>
+            </div>
+            <img src="/3rd project/image/download (1).jfif" alt="" class="image">
+        </div>
+        <div class="panel right-panel">
+            <div class="content">
+                <h3>One of us</h3>
+                <p>
+                    You have the skills.
+                    We have the training.
+                    Together, we can make the world a safer place.
+                    <h3>Sign up today!</h3>
+                </p>
+                <button class="btn transparent" id="sign-in-button">Sign In</button>
+            </div>
+            <img src="/3rd project/image/download.jfif" alt="" class="image">
+        </div>
+    </div>
+ </div>
+    </div>
+ </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
